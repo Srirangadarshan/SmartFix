@@ -1,0 +1,27 @@
+# SmartFix AI Assistant Requirements
+setuptools>=68.0.0
+pip>=23.0.0
+# Core dependencies
+numpy
+faiss-cpu
+sentence-transformers
+tqdm
+
+# LLM dependencies
+llama-cpp-python
+
+# Voice capabilities
+# Uncomment these if you want voice input/output
+pyaudio
+sounddevice
+openwakeword
+
+# Whisper STT (uncomment if needed)
+whisper-cpp
+
+# Piper TTS (uncomment if needed)
+piper-tts
+
+# API integration
+fastapi
+pydantic
