@@ -10,7 +10,7 @@ import time
 
 from ..core.config import settings
 from ..core.cache import cache_manager
-from ..database import get_db
+from ..services.database import get_db
 from ..database.models import User, UserSession
 from ..models.schemas import TokenData, UserRole
 
